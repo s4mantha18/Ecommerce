@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #d8f8d9;
+    padding-top: 30px;
+}
+
+.heading{
+    display: flexbox;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 2px solid #438c45;
+}
+thead {
+    border: 2px solid #438c45;
+    color: #122b13;
+}
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+}
+th {
+    font-weight: 600;
+}
+
+tfoot {
+    background: #473a54;
+    color: white;
+    text-align: right;
+}
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+    th, td {
+        padding: 10px;
+    }
+}
+
+form input[type="submit"] {
+    background-color: #d8f8d9;
+    border: 2px solid #438c45;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #364a37;
+} 
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #438c45;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.547);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1300px;
+}
+
+.actions {
+    width: 100px; 
+}
+
+.price {
+    width: 100px; 
+}
